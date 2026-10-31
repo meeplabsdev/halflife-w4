@@ -1,0 +1,8 @@
+[package]
+name = "firmware"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iced = "0.14.0"
+wiringpi = { version = "0.2.4", features = ["orangepi"] }
