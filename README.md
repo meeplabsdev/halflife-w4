@@ -20,8 +20,15 @@ PCB:
 # Software
 [`firmware/`](firmware/) contains a rust project which can control the board (using wiringpi to set gpio states) and a GUI for the screen. Currently, it is just demo firmware to show how the device could be controlled but when I build this, I could update the firmware to something more useful.
 
+# Case
+I also designed a case for this to hold the screen at a reasonable angle, and to keep the boards in the back neat. (red is the screen)
+
+|<img width="783" height="543" alt="image" src="https://github.com/user-attachments/assets/693dd479-c7b4-4a00-b54f-9df18afde459" />|<img width="317" height="469" alt="image" src="https://github.com/user-attachments/assets/9a6c26fc-05a7-44e0-9ebf-e905892df574" />|
+|---|---|
+
+
 # Cost
-This is a rough outline of the cost, see [`BOM.md`](bom.md) for more details.
+This is a rough outline of the cost, see [`BOM.csv`](bom.csv) for more details.
 
 | Part | Cost |
 | --- | --- |
